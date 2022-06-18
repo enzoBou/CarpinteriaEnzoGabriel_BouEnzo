@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #D9D9D9;
+}
+.header {
+    background-color: #BFBFBF;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 80px 45px;
+}
+.header #nombre {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header .redes {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-items: start;
+}
+.header .menu {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+}
+.header .redes a {
+    margin: 0 5px;
+}
+.header .menu a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+}
+#blum {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px;
+}
+.productos .clip {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.productos .cajones {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.productos .aventos {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.clip p {
+    width: 237px;
+}
+.cajones p {
+    width: 237px;
+}
+.aventos p {
+    width: 237px;
+}
+.tablas {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px;
+}
+.tituloTab {
+    padding-left: 0px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+} 
+.titulo {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 0px;
+}
+#hafele {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.tablasHafele {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+}
+.empresa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 36px;
+}
+.descripcion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+}
+.backimg {
+    background-image: url(../img/TRABAJOS/backimg.jpg);
+    width: 100%;
+    height: 509px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.catalogo {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding: 12px;
+}
+.catalogoSadep {
+    display: inline-block;
+    margin-left: 420px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: solid black;
+    padding-bottom: 2px;
+    position: relative;
+    font-size: 30px;
+}
+.colores {
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.tituloTrabajos {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.imgTrabajos {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.atencionCl {
+    display: inline-block;
+    text-align: center;
+    padding: 60px 60px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.formBox {
+    grid-column: 2/3;
+    margin-bottom: 40px;
+}
+.formulario {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+.formInt {
+    display: inline-block;
+    margin-inline-end: 20px;
+}
+.botones {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.formularioCheck {
+    padding: 0px 20px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer .footer__uno {
+    grid-column: 1/2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    gap: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+#mapa {
+    grid-column: 2/3;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.footer .footer__dos {
+    grid-column: 3/4;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    gap: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) and (min-width: 500px) {
+    .header #nombre {
+        grid-column: 1/3;
+        grid-row: 1/3;
+        display: flex;
+        align-items: center;
+        text-align: start;
+        margin-left: 10px;
+    }
+    .header .redes {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        display: flex;
+        justify-content: end;
+        align-items: flex-start;
+
+    }
+    .cuerpo .galeria {
+        background-image: url(../img/Sin\ título-1.jpg);
+        background-size: cover;
+    }
+    .cuerpo .diseños {
+        background-size: cover;
+    }
+    #mapa {
+        width: 150px;
+        height: 150px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .footer .footer__uno {
+        grid-column: 1/2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: end;
+        gap: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .footer .footer__dos {
+        grid-column: 3/4;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: end;
+        gap: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 620px) {
+    .header #nombre {
+        grid-column: 1/3;
+        grid-row: 1/3;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: start;
+        margin-left: 10px;
+        font-size: 30px;
+    }
+}   
+
+@media (min-width: 0px) and (max-width: 500px) {
+    .header {
+        background-color: #BFBFBF;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 80px 40px;
+    }
+    .footer .footer__uno {
+        grid-column: 1/2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: end;
+        gap: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .footer .footer__dos {
+        grid-column: 3/4;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: end;
+        gap: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    #mapa {
+        width: 150px;
+        height: 150px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .header .menu {
+        grid-column: 2/4;
+        grid-row: 2/3;
+        display: flex;
+        align-items: flex-end;
+        justify-content: end;
+        padding: 10px;
+    }
+    #mapa {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        width: 315px;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 100px;
+    }
+    .footer .footer__dos {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        display: flex;
+        align-items: flex-end;
+        justify-content: end;
+        gap: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .footer .footer__uno {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: flex;
+        align-items: flex-start;
+        justify-content: end;
+    }
+}
+@media (min-width: 700px) and (max-width: 1100px) {
+    .productos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 350px 350px;
+    }
+    .productos .clip {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .productos .cajones {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .productos .aventos {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .tablasHafele {
+        display: none;
+    }
+
+}
+@media (min-width: 0px) and (max-width: 700px) {
+    .productos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 350px 350px 350px;
+    }
+    .productos .clip {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .productos .cajones {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .productos .aventos {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .tablasHafele {
+        display: none;
+    }
+    .header {
+        background-color: #bfbfbf;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 80px 65px;
+    }
+    .header .redes {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        display: flex;
+        justify-content: end;
+        align-items: flex-start;
+    }
+    .header .menu {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        display: flex;
+        align-items: flex-end;
+        justify-content: end;
+        padding: 10px;
+    }
+}
+@media (max-width: 1000px) {
+    .imgTrabajos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+}
+
