@@ -3,11 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    background-color: #D9D9D9;
-}
 .header {
-    background-color: #BFBFBF;
+    background-color: #9C6E3A;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 80px 45px;
@@ -47,10 +44,10 @@ body {
     color: black;
 }
 #blum {
-    display: inline-block;
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin-bottom: 40px;
 }
 .productos {
     display: grid;
@@ -75,45 +72,21 @@ body {
     padding-top: 10px;
     padding-left: 20px;
 }
-.clip p {
-    width: 237px;
-}
-.cajones p {
-    width: 237px;
-}
-.aventos p {
-    width: 237px;
-}
-.tablas {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 0px;
-}
-.tituloTab {
-    padding-left: 0px;
-    padding-top: 40px;
-    padding-bottom: 30px;
-} 
 .titulo {
     font-family: 'Times New Roman', Times, serif;
     padding: 10px 0px;
 }
 #hafele {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     margin-top: 40px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-}
-.tablasHafele {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 30px;
+    margin-bottom: 40px;
 }
 .empresa {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 250px;
     font-size: 36px;
 }
 .descripcion {
@@ -127,25 +100,16 @@ body {
 .backimg {
     background-image: url(../img/TRABAJOS/backimg.jpg);
     width: 100%;
-    height: 509px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .catalogo {
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
     padding: 12px;
-}
-.catalogoSadep {
-    display: inline-block;
-    margin-left: 420px;
-    padding-top: 40px;
-    margin-bottom: 20px;
-    border-bottom: solid black;
-    padding-bottom: 2px;
-    position: relative;
-    font-size: 30px;
 }
 .colores {
     display: flex;
@@ -158,29 +122,56 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 30px;
-    margin-bottom: 30px;
-    font-size: 30px;
+    margin-bottom: 60px;
+    font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-.imgTrabajos {
+.containerHerrajes1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: linear-gradient(45deg, #C28948, #5C4122);
+}
+.imgTrabajos1 {
     display: flex;
     justify-content: space-around;
     padding-bottom: 40px;
+    grid-row: 2/3;
+}
+.imgTrabajos2 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    grid-row: 4/5;
+}
+.imgTrabajos3 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    grid-row: 6/7;
+}
+.imgTrabajos4 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    grid-row: 8/9;
 }
 .atencionCl {
-    display: inline-block;
-    text-align: center;
-    padding: 60px 60px;
+    display: flex;
+    justify-items: start;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .form {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 .formBox {
-    grid-column: 2/3;
+    grid-column: 2/5;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 .formulario {
     display: flex;
@@ -201,6 +192,7 @@ body {
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: #DB9B51;
 }
 .footer .footer__uno {
     grid-column: 1/2;
@@ -298,7 +290,6 @@ body {
 
 @media (min-width: 0px) and (max-width: 500px) {
     .header {
-        background-color: #BFBFBF;
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 80px 40px;
@@ -422,7 +413,6 @@ body {
         display: none;
     }
     .header {
-        background-color: #bfbfbf;
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 80px 65px;
@@ -443,13 +433,90 @@ body {
         padding: 10px;
     }
 }
+.catalogoMain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 450px 50px;
+    background: linear-gradient(45deg, #C28948, #5C4122);
+}
+.catalogoSadep {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.containerMain {
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.containerHerrajes {
+    background: linear-gradient(45deg, #C28948, #5C4122);
+}
+.containerItemsH {
+    display: flex;
+    justify-content: space-around;
+}
+.containerItemsH1 {
+    display: flex;
+    justify-content: space-around;
+}
+.containerForm {
+    background: linear-gradient(45deg, #C28948, #5C4122);
+}
+.formBox {
+    background-color: #9C6E3A;
+}
 @media (max-width: 1000px) {
-    .imgTrabajos {
+    .containerMain {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
-        width: 100%;
+        grid-row: 2/5;
+    }
+    .catalogoMain {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 450px 450px 450px;
     }
 }
-
+@media (min-width: 0px) and (max-width: 768px) {
+    .containerHerrajes {
+        display: grid;
+        grid-template-rows: 140px 500px 500px 500px 140px 500px 500px 500px;
+    }
+    .containerItemsH {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-row: 2/5;
+    }
+    .containerItemsH1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-row: 6/9;
+    }
+    #blum {
+        display: flex;
+        align-items: center;
+        grid-row: 1/2;
+    }
+    .formBox {
+        grid-column: 1/6;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+}
+@media (max-width: 1000px) {
+    .containerHerrajes1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 550px 550px 100px 550px 550px 100px 550px 550px 100px 550px 550px;
+        background: linear-gradient(45deg, #C28948, #5C4122);
+    }
+}

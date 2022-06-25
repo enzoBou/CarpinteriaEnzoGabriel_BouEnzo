@@ -7,6 +7,7 @@
     <title>Contacto Profesional</title>
     <link rel="shortcut icon" href="../img/letter_e_PNG50.png">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
 
@@ -22,72 +23,73 @@
             <a href="../trabajos.html">Trabajos</a></li>
         </nav>
     </header>
-    <hr>
-    <form class="form" action="enviar.php" method="get">
+    <main class="containerForm">
+        <form class="form" action="enviar.php" method="get">
 
-        <fieldset class="formBox">
-            <legend class="atencionCl">Trabaja con Nosotros</legend>
-        <div class="formulario">
-            <label for="motivo" class="formInt">Motivo</label>
-            <input type="text" id="motivo" placeholder="Ingrese el motivo de su consulta" required>
-        </div>
-        <br>
-        <div class="formulario">
-            <label for="nombre" class="formInt">Nombre y Apellido</label>
-            <input type="text" id="nombre">
-        </div>    
-        <br>
-        <div class="formulario">
-            <label for="domicilio" class="formInt">Domicilio</label>
-            <input type="text" id="domicilio">
-        </div>
-        <br>
-        <div class="formulario">
-            <label for="localidad" class="formInt">Localidad</label>
-            <input type="text" id="localidad">
-        </div>
-        <br>
-        <div class="formulario">
-            <label for="codigopostal" class="formInt">Codigo Postal</label>
-            <input type="text" id="cp">
-        </div>
-        <br>
-        <div class="formulario">
-            <label for="pais" class="formInt">Elegir pais</label>
-            <select name="paises" id="paises">
-                <option value="00" disabled>Seleccione una opcion</option>
-                <option value="01">Argentina</option>
-                <option value="02">Uruguay</option>
-                <option value="03">Chile</option>
-                <option value="04">Bolivia</option>
-                <option value="05">Paraguay</option>
-            </select>
-        </div>
-        <br>
-        <div class="formulario">
-                <label for="provincia" class="formInt">Provincia</label>
-                <input type="text" id="provincia">
-        </div>
-        <br>
-        <div class="formulario">
-            <label for="telefono" class="formInt">Telefono</label>
-            <input type="text" id="telefono" required>
-        </div>
-        <br>
-        <div class="formulario">
-            <label for="email" class="formInt">Email</label>
-            <input type="text" id="email">
-        </div>
-        <br>
-        <div class="botones">
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar todo">
-        </div>
-        
-        </fieldset>
-        
-    </form>
-    <hr>
+            <fieldset class="formBox shadow-lg bg-body rounded">
+                <legend class="atencionCl">Trabaja con Nosotros</legend>
+            <div class="formulario">
+                <label for="motivo" class="formInt">Motivo</label>
+                <input type="text" id="motivo" placeholder="Ingrese el motivo de su consulta" required>
+            </div>
+            <br>
+            <div class="formulario">
+                <label for="nombre" class="formInt">Nombre y Apellido</label>
+                <input type="text" id="nombre">
+            </div>    
+            <br>
+            <div class="formulario">
+                <label for="domicilio" class="formInt">Domicilio</label>
+                <input type="text" id="domicilio">
+            </div>
+            <br>
+            <div class="formulario">
+                <label for="localidad" class="formInt">Localidad</label>
+                <input type="text" id="localidad">
+            </div>
+            <br>
+            <div class="formulario">
+                <label for="codigopostal" class="formInt">Codigo Postal</label>
+                <input type="text" id="cp">
+            </div>
+            <br>
+            <div class="formulario">
+                <label for="pais" class="formInt">Elegir pais</label>
+                <select name="paises" id="paises">
+                    <option value="00" disabled>Seleccione una opcion</option>
+                    <option value="01">Argentina</option>
+                    <option value="02">Uruguay</option>
+                    <option value="03">Chile</option>
+                    <option value="04">Bolivia</option>
+                    <option value="05">Paraguay</option>
+                </select>
+            </div>
+            <br>
+            <div class="formulario">
+                    <label for="provincia" class="formInt">Provincia</label>
+                    <input type="text" id="provincia">
+            </div>
+            <br>
+            <div class="formulario">
+                <label for="telefono" class="formInt">Telefono</label>
+                <input type="text" id="telefono" required>
+            </div>
+            <br>
+            <div class="formulario">
+                <label for="email" class="formInt">Email</label>
+                <input type="text" id="email">
+            </div>
+            <br>
+            <div class="botones">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar todo">
+            </div>
+            
+            </fieldset>
+            
+        </form>
+    </main>
+    
     <footer class="footer">
         <nav class="footer__uno">
             <a href="./contacto.html">Contrataciones</a>
@@ -101,6 +103,6 @@
             <a href="./contactoprof.html">Trabaja con nosotros</a>
         </div>
     </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

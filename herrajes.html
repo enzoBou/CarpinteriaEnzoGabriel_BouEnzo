@@ -7,6 +7,7 @@
     <title>Herrajes</title>
     <link rel="shortcut icon" href="./img/letter_e_PNG50.png">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
     <header class="header">
@@ -29,138 +30,67 @@
             <a href="./trabajos.html">Trabajos</a></li>
         </nav>
     </header>
-    <hr>
-    <div>
+    <main class="containerHerrajes">
         <a href="https://www.blum.com/su/es/" target="_blank" id="blum">
-            <img src="./img/Blum_brandboxmin_2.png" alt="blum" width="160" height="60">
-        </a>
-        <hr>
-        <div class="productos">
-            <div class="clip"><h2 class="titulo">CLIPtop BLUMOTION</h2>
-                <img src="./img/clp0318_dt_frd_fo_bau_-sall_-apr6i_-v1_316x237.jpg" alt="cliptop">
-            <p>La amortiguacion BLUMOTION esta integrada en la cazoleta de bisagra</p></div> 
-                <div class="cajones"><h2 class="titulo">CAJONES</h2>
-            <img src="./img/amb0153_aa_fot_fo_bau_-sall_-apr6i_-v1_316x237.jpg" alt="cajones">
-            <p>Nuestros cajones estan diseñados ergonomicamente con la mas alta tecnologia del mercado</p></div> 
-                <div class="aventos"><h2 class="titulo">AVENTOS</h2>
-            <img src="./img/me11711629_gespiegelt_316x237.jpg" alt="aventos">
-            <p>El sistema de compases abatibles AVENTOS ofrece una gran comodidad de movimiento en armarios elevados</p></div>
-        </div>    
-    </div>
-    <div class="tablasHafele">
-        
-        <h2 class="tituloTab">AVENTOS</h2>
-
-        <table class="tablas" border="1" cellpadding="5">
-            <tr>
-                <td>CARACTERISTICAS</td>
-                <td>AVENTOS HF</td>
-                <td>AVENTOS HS</td>
-                <td>AVENTOS HL</td>
-                <td>AVENTOS HK top</td>
-                <td>AVENTOS HK-S</td>
-                <td>AVENTOS HK-XS</td>
-            </tr>
-            <tr>
-                <td>TAPAS</td>
-                <td>GRIS CLARO-GRIS OSCURO</td>
-                <td>GRIS CLARO-GRIS OSCURO</td>
-                <td>GRIS CLARO-GRIS OSCURO</td>
-                <td>BLANCO SEDA-GRIS CLARO-GRIS OSCURO</td>
-                <td>BLANCO SEDA-GRIS CLARO-GRIS OSCURO</td>
-                <td>NO POSEE</td>
-            </tr>
-            <tr>
-                <td>DIMENSIONES GABINETE</td>
-                <td>h: 480mm a 1.040 mm</td>
-                <td>h: 350mm a 800 mm</td>
-                <td>h: 300mm a 580 mm</td>
-                <td>h: 205mm a 600 mm</td>
-                <td>h: máx. 600 mm</td>
-                <td>h: 240 mm a 600 mm</td>
-            </tr>
-            <tr>
-                <td>TECNOLOGIA DE MOVIMIENTO</td>
-                <td>BLUMOTION-SERVODRIVE</td>
-                <td>BLUMOTION-SERVODRIVE</td>
-                <td>BLUMOTION-SERVODRIVE</td>
-                <td>BLUMOTION-SERVODRIVE-TIP ON</td>
-                <td>BLUMOTION-TIP ON</td>
-                <td>BLUMOTION-TIP ON</td>
-            </tr>
-            <tr>
-                <td>TIPO DE APERTURA</td>
-                <td>VERTICAL</td>
-                <td>HORIZONTAL</td>
-                <td>VERTICAL</td>
-                <td>HORIZONTAL</td>
-                <td>HORIZONTAL</td>
-                <td>HORIZONTAL</td>
-            </tr>
-        </table>
-         
-    </div>
-    <div>
-        <a href="https://www.hafele.com.ar/es/" target="_blank" id="hafele">
-            <img src="./img/haefele_logo.png" alt="hafele">
-        </a>
-        <hr>
-        <div class="productos">
-            <div class="clip"><h2 class="titulo">Puertas elevables FREE</h2>
-                <img src="./img/link1_todos_elevables_freeswing.jpg" alt="free">
-            <p>Los sistemas para puertas abatibles o elevables Free son aptos para todo tipo de puertas, materiales, formatos, pesos y volúmenes</p></div>
-            <div class="cajones"><h2 class="titulo">CAJONES MATRIX BOX</h2>
-                <img src="./img/link1_moovit_cajones.jpg" alt="cajonesHafele">
-            <p>El nuevo sistema modular para cajones y guías Matrix Box de Häfele garantiza un deslizamiento armónico, a través de una apertura sutil y un cierre suave</p></div>
-            <div class="aventos"><h2 class="titulo">Iluminacion LED</h2>
-                <img src="./img/link1_todos_tira_LED_silic.jpg" alt="LED">
-            <p>A través de los sistemas de iluminación LED de HÄFELE, es muy simple diseñar variadas propuestas y planificarlas con flexibilidad</p></div>
+            <img src="./img/Blum_brandboxmin_2.png" alt="blum" width="260" height="100"></a> 
+        <div class="containerItemsH">
+            <div class="card text-bg-light mb-3 shadow-lg bg-body rounded" style="width: 18rem;">
+                <img src="./img/clp0318_dt_frd_fo_bau_-sall_-apr6i_-v1_316x237.jpg" class="card-img-top" alt="clipTop">
+                <div class="card-body">
+                    <h5 class="card-title">CLIPtop BLUMOTION</h5>
+                    <p class="card-text">La amortiguacion BLUMOTION esta integrada en la cazoleta de bisagra</p>
+                    <a href="https://www.blum.com/su/es/products/hingesystems/clip-top-blumotion/overview/" target="_parent" class="btn btn-primary">Ir a la página</a>
+                </div>
+            </div>
+            <div class="card text-bg-light mb-3 shadow-lg bg-body rounded" style="width: 18rem;">
+                <img src="./img/amb0153_aa_fot_fo_bau_-sall_-apr6i_-v1_316x237.jpg" class="card-img-top" alt="cajones">
+                <div class="card-body">
+                    <h5 class="card-title">CAJONES</h5>
+                    <p class="card-text">Nuestros cajones estan diseñados ergonomicamente con la mas alta tecnologia del mercado</p>
+                    <a href="https://www.blum.com/su/es/products/runnersystems/movento/overview/" target="_parent" class="btn btn-primary">Ir a la página</a>
+                </div>
+            </div>
+            <div class="card text-bg-light mb-3 shadow-lg bg-body rounded" style="width: 18rem;">
+                <img src="./img/me11711629_gespiegelt_316x237.jpg" class="card-img-top" alt="aventos">
+                <div class="card-body">
+                    <h5 class="card-title">AVENTOS</h5>
+                    <p class="card-text">El sistema de compases abatibles AVENTOS ofrece una gran comodidad de movimiento en armarios elevados</p>
+                    <a href="https://www.blum.com/su/es/products/liftsystems/aventos-hf/programme/" target="_parent" class="btn btn-primary">Ir a la página</a>
+                </div>
+            </div>   
         </div>
-        
-        
-    </div>
-    <br>
-    <div class="tablasHafele">
-         
-        <h2 class="titulo">SISTEMAS ABATIBLES Y ELEVABLES FREE</h2>
-        
-        <table border="1" cellpadding="5">
-            <tr>
-                <td>CARACTERISTICAS</td>
-                <td>FREE FLAP</td>
-                <td>FREE FOLD</td>
-                <td>FREE UP</td>
-                <td>FREE SWING</td>
-                <td>FREE SPACE</td>
-            </tr>
-            <tr>
-                <td>TERMINACION</td>
-                <td>NO POSEE</td>
-                <td>BLANCO SEDA</td>
-                <td>BLANCO SEDA</td>
-                <td>BLANCO SEDA</td>
-                <td>BLANCO SEDA-NEGRO ONIX</td>
-            </tr>
-            <tr>
-                <td>CAPACIDAD DE CARGA</td>
-                <td>1KG-11KG</td>
-                <td>3KG-21KG</td>
-                <td>3KG-20KG</td>
-                <td>2KG-17KG</td>
-                <td>0,7KG-19KG</td>
-            </tr>
-            <tr>
-                <td>TIPO DE APERTURA</td>
-                <td>HORIZONTAL</td>
-                <td>HORIZONTAL</td>
-                <td>VERTICAL</td>
-                <td>HORIZONTAL</td>
-                <td>HORIZONTAL</td>
-            </tr>
-        </table>
-
-    </div>
-    <hr>
+        <div>
+            <a href="https://www.hafele.com.ar/es/" target="_blank" id="hafele">
+                <img src="./img/haefele_logo.png" alt="hafele" width="260" height="40">
+            </a>
+            <div class="containerItemsH1 pb-4">
+                <div class="card text-bg-light mb-3 shadow-lg bg-body rounded" style="width: 18rem;">
+                    <img src="./img/link1_todos_elevables_freeswing.jpg" class="card-img-top" alt="clipTop">
+                    <div class="card-body">
+                        <h5 class="card-title">Puertas elevables FREE</h5>
+                        <p class="card-text">Los sistemas para puertas abatibles o elevables Free son aptos para todo tipo de puertas, materiales, formatos, pesos y volúmenes</p>
+                        <a href="https://www.hafele.com.ar/es/info/productos/cocina-lavadero/sistemas-para-puertas-abatibles-y-elevables/83140/" target="_parent" class="btn btn-primary">Ir a la página</a>
+                    </div>
+                </div>
+                <div class="card text-bg-light mb-3 shadow-lg bg-body rounded" style="width: 18rem;">
+                    <img src="./img/link1_moovit_cajones.jpg" class="card-img-top" alt="cajones">
+                    <div class="card-body">
+                        <h5 class="card-title">CAJONES MATRIX BOX</h5>
+                        <p class="card-text">El nuevo sistema modular para cajones y guías Matrix Box de Häfele garantiza un deslizamiento armónico, a través de una apertura sutil y un cierre suave</p>
+                        <a href="https://www.hafele.com.ar/es/info/productos/cocina-lavadero/sistemas-matrix-para-cajones/84873/" class="btn btn-primary">Ir a la página</a>
+                    </div>
+                </div>
+                <div class="card text-bg-light mb-3 shadow-lg bg-body rounded" style="width: 18rem;">
+                    <img src="./img/link1_todos_tira_LED_silic.jpg" class="card-img-top" alt="aventos">
+                    <div class="card-body">
+                        <h5 class="card-title">Iluminacion LED</h5>
+                        <p class="card-text">A través de los sistemas de iluminación LED de HÄFELE, es muy simple diseñar variadas propuestas y planificarlas con flexibilidad</p>
+                        <a href="https://www.hafele.com.ar/es/info/productos/cocina-lavadero/iluminaci-n-led/88209/" class="btn btn-primary">Ir a la página</a>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </main>
     <footer class="footer">
         <nav class="footer__uno">
             <a href="./formularios/contacto.html">Contrataciones</a>
@@ -174,6 +104,7 @@
             <a href="./formularios/contactoprof.html">Trabaja con nosotros</a>
         </div>
     </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
 </html>
