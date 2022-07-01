@@ -165,4 +165,83 @@
             font-size: 30px;
         }
     } 
-}  
+}
+@media (max-width: $breakpointD) {
+    .catalogoMain {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 450px 450px 450px;
+    }
+    .containerMain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-row: 2/5;
+    }
+    .containerHerrajes1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 1700px 100px 2000px 100px 1500px 100px 2000px;
+        background: linear-gradient(45deg, #C28948, #5C4122);
+    }
+    .imgTrabajos1 {
+        display: flex;
+        flex-direction: column;
+        grid-row: 2/3;
+        align-items: center;
+    }
+    .imgTrabajos2 {
+        display: flex;
+        flex-direction: column;
+        grid-row: 4/5;
+        align-items: center;
+    }
+    .imgTrabajos3 {
+        display: flex;
+        flex-direction: column;
+        grid-row: 6/7;
+        align-items: center;
+    }
+    .imgTrabajos4 {
+        display: flex;
+        flex-direction: column;
+        grid-row: 8/9;
+        align-items: center;
+    }
+}
+@media (min-width: 0px) and (max-width: $tablet) {
+    .containerHerrajes {
+        display: grid;
+        grid-template-rows: 140px 500px 500px 500px 140px 500px 500px 500px;
+    }
+    .containerItemsH {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-row: 2/5;
+    }
+    .containerItemsH1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-row: 6/9;
+    }
+    #blum {
+        display: flex;
+        align-items: center;
+        grid-row: 1/2;
+    }
+}
+@media (min-width: 0px) and (max-width: $breakpointB) {
+    .containerHerrajes1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 1100px 100px 1400px 100px 1000px 100px 1400px;
+        background: linear-gradient(45deg, #C28948, #5C4122);
+    }
+    .tituloTrabajos {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+}

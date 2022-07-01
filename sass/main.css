@@ -172,24 +172,31 @@
 }
 .cuerpo .galeria:hover {
   opacity: 90%;
+  transform: scale(1.005);
 }
 .cuerpo .cocinas:hover {
   opacity: 90%;
+  transform: scale(1.005);
 }
 .cuerpo .placards:hover {
   opacity: 90%;
+  transform: scale(1.005);
 }
 .cuerpo .mesadas:hover {
   opacity: 90%;
+  transform: scale(1.005);
 }
 .cuerpo .diseños:hover {
   opacity: 90%;
+  transform: scale(1.005);
 }
 .cuerpo .nosotros:hover {
   opacity: 90%;
+  transform: scale(1.005);
 }
 .cuerpo .herrajes:hover {
   opacity: 90%;
+  transform: scale(1.005);
 }
 
 .footer {
@@ -225,6 +232,186 @@
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
+}
+
+#blum {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 350px;
+}
+.productos .clip {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.productos .cajones {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.productos .aventos {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.titulo {
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px 0px;
+}
+
+#hafele {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.empresa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 250px;
+  font-size: 36px;
+}
+
+.descripcion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 40px;
+}
+
+.backimg {
+  background-image: url(../img/TRABAJOS/backimg.jpg);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.catalogo {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  padding: 12px;
+}
+
+.colores {
+  display: flex;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.tituloTrabajos {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.containerHerrajes1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 550px 100px 550px 100px 550px 100px 550px;
+  background: linear-gradient(45deg, #C28948, #5C4122);
+}
+
+.imgTrabajos1 {
+  display: flex;
+  justify-content: space-around;
+  grid-row: 2/3;
+}
+
+.imgTrabajos2 {
+  display: flex;
+  justify-content: space-around;
+  grid-row: 4/5;
+}
+
+.imgTrabajos3 {
+  display: flex;
+  justify-content: space-around;
+  grid-row: 6/7;
+}
+
+.imgTrabajos4 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  grid-row: 8/9;
+}
+
+.catalogoMain {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 450px 50px;
+  background: linear-gradient(45deg, #C28948, #5C4122);
+}
+
+.catalogoSadep {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.containerMain {
+  grid-row: 2/3;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.containerHerrajes {
+  background: linear-gradient(45deg, #C28948, #5C4122);
+}
+
+.containerItemsH {
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerItemsH1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerForm {
+  background: linear-gradient(45deg, #C28948, #5C4122);
+}
+
+.p {
+  padding: 20px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.containerMain {
+  position: relative;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 50px 0px 30px -15px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px) and (min-width: 500px) {
@@ -390,239 +577,92 @@
     font-size: 30px;
   }
 }
-.header {
-  background-color: #9C6E3A;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 80px 45px;
-}
-.header #nombre {
-  grid-column: 1/4;
-  grid-row: 1/2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 48px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-.header .redes {
-  grid-column: 1/2;
-  grid-row: 2/3;
-  display: flex;
-  padding: 10px;
-  align-items: center;
-  justify-items: start;
-}
-.header .redes a {
-  margin: 0 5px;
-}
-.header .menu {
-  grid-column: 3/4;
-  grid-row: 2/3;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  padding: 10px;
-}
-.header .menu a {
-  margin: 0 5px;
-  text-decoration: none;
-  color: black;
-}
+@media (max-width: 1000px) {
+  .catalogoMain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 450px 450px 450px;
+  }
 
-#blum {
-  display: flex;
-  justify-content: center;
-  padding-top: 40px;
-  margin-bottom: 40px;
-}
+  .containerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row: 2/5;
+  }
 
-.productos {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 350px;
-}
-.productos .clip {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  padding-left: 20px;
-  padding-top: 10px;
-}
-.productos .cajones {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  padding-left: 20px;
-  padding-top: 10px;
-}
-.productos .aventos {
-  grid-column: 3/4;
-  grid-row: 1/2;
-  padding-top: 10px;
-  padding-left: 20px;
-}
+  .containerHerrajes1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1700px 100px 2000px 100px 1500px 100px 2000px;
+    background: linear-gradient(45deg, #C28948, #5C4122);
+  }
 
-.titulo {
-  font-family: "Times New Roman", Times, serif;
-  padding: 10px 0px;
-}
+  .imgTrabajos1 {
+    display: flex;
+    flex-direction: column;
+    grid-row: 2/3;
+    align-items: center;
+  }
 
-#hafele {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
+  .imgTrabajos2 {
+    display: flex;
+    flex-direction: column;
+    grid-row: 4/5;
+    align-items: center;
+  }
 
-.empresa {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 250px;
-  font-size: 36px;
-}
+  .imgTrabajos3 {
+    display: flex;
+    flex-direction: column;
+    grid-row: 6/7;
+    align-items: center;
+  }
 
-.descripcion {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-  padding: 40px;
+  .imgTrabajos4 {
+    display: flex;
+    flex-direction: column;
+    grid-row: 8/9;
+    align-items: center;
+  }
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .containerHerrajes {
+    display: grid;
+    grid-template-rows: 140px 500px 500px 500px 140px 500px 500px 500px;
+  }
 
-.backimg {
-  background-image: url(../img/TRABAJOS/backimg.jpg);
-  width: 100%;
-  height: 700px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  .containerItemsH {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row: 2/5;
+  }
 
-.catalogo {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 40px;
-  padding: 12px;
-}
+  .containerItemsH1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row: 6/9;
+  }
 
-.colores {
-  display: flex;
-  justify-content: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 18px;
-  padding-bottom: 10px;
+  #blum {
+    display: flex;
+    align-items: center;
+    grid-row: 1/2;
+  }
 }
+@media (min-width: 0px) and (max-width: 600px) {
+  .containerHerrajes1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1100px 100px 1400px 100px 1000px 100px 1400px;
+    background: linear-gradient(45deg, #C28948, #5C4122);
+  }
 
-.tituloTrabajos {
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
-  margin-bottom: 60px;
-  font-size: 50px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
-.containerHerrajes1 {
-  display: grid;
-  grid-template-columns: 1fr;
-  background: linear-gradient(45deg, #C28948, #5C4122);
-}
-
-.imgTrabajos1 {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 40px;
-  grid-row: 2/3;
-}
-
-.imgTrabajos2 {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 40px;
-  grid-row: 4/5;
-}
-
-.imgTrabajos3 {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 40px;
-  grid-row: 6/7;
-}
-
-.imgTrabajos4 {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 40px;
-  grid-row: 8/9;
-}
-
-.form {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-.form .atencionCl {
-  display: flex;
-  justify-items: start;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-.form .formulario {
-  display: flex;
-  justify-content: flex-start;
-  padding-left: 20px;
-}
-.form .formulario .formInt {
-  display: inline-block;
-  -webkit-margin-end: 20px;
-          margin-inline-end: 20px;
-}
-.form .formBox {
-  grid-column: 2/5;
-  margin-bottom: 40px;
-  margin-top: 40px;
-}
-.form .botones {
-  padding-left: 20px;
-  padding-bottom: 20px;
-}
-.form .formularioCheck {
-  padding: 0px 20px;
-}
-
-.footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: #DB9B51;
-}
-.footer a {
-  color: black;
-  text-decoration: none;
-}
-.footer .footer__uno {
-  grid-column: 1/2;
-  display: flex;
-  align-items: flex-end;
-  justify-content: start;
-  gap: 10px;
-  margin-left: 10px;
-  margin-bottom: 20px;
-}
-.footer #mapa {
-  grid-column: 2/3;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-.footer .footer__dos {
-  grid-column: 3/4;
-  display: flex;
-  align-items: flex-end;
-  justify-content: end;
-  gap: 10px;
-  margin-right: 10px;
-  margin-bottom: 20px;
+  .tituloTrabajos {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */

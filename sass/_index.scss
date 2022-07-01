@@ -10,7 +10,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 48px;
+        font-size: $fuentePrimaria;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     .redes {
@@ -51,7 +51,7 @@
         text-align: start;
         margin: 10px;
         padding: 20px;
-        font-size: 48px;
+        font-size: $fuentePrimaria;
         border: none;
         text-decoration: none;
         color: black;
@@ -68,7 +68,7 @@
         margin-left: 10px;
         margin-right: 5px;
         padding: 20px;
-        font-size: 48px;
+        font-size: $fuentePrimaria;
         border: none;
         text-decoration: none;
         color: black;
@@ -83,7 +83,7 @@
         margin-right: 10px;
         margin-left: 5px;
         padding: 20px;
-        font-size: 48px;
+        font-size: $fuentePrimaria;
         border: none;
         text-decoration: none;
         color: black;
@@ -99,7 +99,7 @@
         margin-right: 10px;
         margin-top: 10px;
         padding: 20px;
-        font-size: 48px;
+        font-size: $fuentePrimaria;
         border: none;
         text-decoration: none;
         color: black;
@@ -117,7 +117,7 @@
         margin-top: 10px;
         margin-right: 5px;
         padding: 20px;
-        font-size: 48px;
+        font-size: $fuentePrimaria;
         border: none;
         text-decoration: none;
         color: black;
@@ -134,7 +134,7 @@
         margin-right: 5px;
         margin-bottom: 10px;
         padding: 20px;
-        font-size: 48px;
+        font-size: $fuentePrimaria;
         border: none;
         text-decoration: none;
         color: black;
@@ -153,7 +153,7 @@
         margin-top: 10px;
         margin-bottom: 10px;
         padding: 20px;
-        font-size: 48px;
+        font-size: $fuentePrimaria;
         border: none;
         text-decoration: none;
         color: black;
@@ -162,24 +162,31 @@
     }
     .galeria:hover {
         opacity: 90%;
+        transform: scale(1.005);
     }
     .cocinas:hover {
         opacity: 90%;
+        transform: scale(1.005);
     }
     .placards:hover {
         opacity: 90%;
+        transform: scale(1.005);
     }
     .mesadas:hover {
         opacity: 90%;
+        transform: scale(1.005);
     }
     .diseños:hover {
         opacity: 90%;
+        transform: scale(1.005);
     }
     .nosotros:hover {
         opacity: 90%;
+        transform: scale(1.005);
     }
     .herrajes:hover {
         opacity: 90%;
+        transform: scale(1.005);
     }
 }
 .footer {
