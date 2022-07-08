@@ -20,7 +20,7 @@
   justify-content: center;
   text-align: center;
   font-size: 48px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .header .redes {
   grid-column: 1/2;
@@ -47,6 +47,17 @@
   color: black;
 }
 
+.cuerpoExtend, .cuerpo .herrajes, .cuerpo .nosotros, .cuerpo .diseños, .cuerpo .mesadas, .cuerpo .placards, .cuerpo .cocinas, .cuerpo .galeria {
+  padding: 20px;
+  font-size: 48px;
+  border: none;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 .cuerpo {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -60,13 +71,6 @@
   background-image: url(../img/Sin\ título-1.jpg);
   text-align: start;
   margin: 10px;
-  padding: 20px;
-  font-size: 48px;
-  border: none;
-  text-decoration: none;
-  color: black;
-  display: flex;
-  align-items: flex-end;
 }
 .cuerpo .cocinas {
   grid-column: 1/2;
@@ -77,13 +81,6 @@
   text-align: start;
   margin-left: 10px;
   margin-right: 5px;
-  padding: 20px;
-  font-size: 48px;
-  border: none;
-  text-decoration: none;
-  color: black;
-  display: flex;
-  align-items: flex-start;
 }
 .cuerpo .placards {
   grid-column: 2/3;
@@ -92,13 +89,6 @@
   text-align: start;
   margin-right: 10px;
   margin-left: 5px;
-  padding: 20px;
-  font-size: 48px;
-  border: none;
-  text-decoration: none;
-  color: black;
-  display: flex;
-  align-items: flex-start;
 }
 .cuerpo .mesadas {
   grid-column: 2/3;
@@ -108,13 +98,6 @@
   margin-left: 5px;
   margin-right: 10px;
   margin-top: 10px;
-  padding: 20px;
-  font-size: 48px;
-  border: none;
-  text-decoration: none;
-  color: black;
-  display: flex;
-  align-items: flex-start;
 }
 .cuerpo .diseños {
   grid-column: 1/2;
@@ -126,13 +109,6 @@
   margin-left: 10px;
   margin-top: 10px;
   margin-right: 5px;
-  padding: 20px;
-  font-size: 48px;
-  border: none;
-  text-decoration: none;
-  color: black;
-  display: flex;
-  align-items: flex-start;
 }
 .cuerpo .nosotros {
   grid-column: 1/2;
@@ -143,13 +119,6 @@
   margin-top: 10px;
   margin-right: 5px;
   margin-bottom: 10px;
-  padding: 20px;
-  font-size: 48px;
-  border: none;
-  text-decoration: none;
-  color: black;
-  display: flex;
-  align-items: flex-start;
 }
 .cuerpo .herrajes {
   grid-column: 2/3;
@@ -162,41 +131,6 @@
   margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 20px;
-  font-size: 48px;
-  border: none;
-  text-decoration: none;
-  color: black;
-  display: flex;
-  align-items: flex-start;
-}
-.cuerpo .galeria:hover {
-  opacity: 90%;
-  transform: scale(1.005);
-}
-.cuerpo .cocinas:hover {
-  opacity: 90%;
-  transform: scale(1.005);
-}
-.cuerpo .placards:hover {
-  opacity: 90%;
-  transform: scale(1.005);
-}
-.cuerpo .mesadas:hover {
-  opacity: 90%;
-  transform: scale(1.005);
-}
-.cuerpo .diseños:hover {
-  opacity: 90%;
-  transform: scale(1.005);
-}
-.cuerpo .nosotros:hover {
-  opacity: 90%;
-  transform: scale(1.005);
-}
-.cuerpo .herrajes:hover {
-  opacity: 90%;
-  transform: scale(1.005);
 }
 
 .footer {
@@ -232,6 +166,21 @@
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
+}
+
+.opcTypeA:hover {
+  transform: scale(1.005);
+  opacity: 90%;
+}
+
+.opcTypeB:hover {
+  transform: scale(1.005);
+  opacity: 80%;
+}
+
+.opcTypeC:hover {
+  transform: scale(1.005);
+  opacity: 70%;
 }
 
 #blum {

@@ -28,7 +28,7 @@
     }
 }
 .titulo {
-    font-family: $tipoDeFuentePrimaria;
+    font-family: 'Times New Roman', Times, serif;
     padding: 10px 0px;
 }
 #hafele {
@@ -42,14 +42,14 @@
     align-items: center;
     justify-content: center;
     padding-top: 250px;
-    font-size: $fuenteSecundaria;
+    font-size: map-get($tamañoFuente, segunda);
 }
 .descripcion {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: $tercerFuente;
-    font-family: $tipoDeFuentePrimaria;
+    font-size: map-get($tamañoFuente, tercera);
+    font-family: 'Times New Roman', Times, serif;
     padding: 40px;
 }
 .backimg {
@@ -68,22 +68,22 @@
 .colores {
     display: flex;
     justify-content: center;
-    font-family: $tipoDeFuenteSecundaria;
-    font-size: $quintaFuente;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: map-get($tamañoFuente, quinta);
     padding-bottom: 10px;
 }
 .tituloTrabajos {
     display: flex;
     justify-content: center;
     padding-top: 30px;
-    font-size: $cuartaFuente;
-    font-family: $tipoDeFuenteSecundaria;
+    font-size: map-get($tamañoFuente, cuarta);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .containerHerrajes1 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 100px 550px 100px 550px 100px 550px 100px 550px;
-    background: linear-gradient(45deg, $colorSecundarioA, $colorSecundarioB);
+    background: linear-gradient(45deg, map-get($colores, secundarioA), map-get($colores, secundarioB));
 }
 .imgTrabajos1 {
     display: flex;
@@ -111,7 +111,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 200px 450px 50px;
-    background: linear-gradient(45deg, #C28948, #5C4122);
+    background: linear-gradient(45deg, map-get($colores, secundarioA), map-get($colores, secundarioB));
 }
 .catalogoSadep {
     grid-column: 1/2;
@@ -119,7 +119,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: $cuartaFuente;
+    font-size: map-get($tamañoFuente, cuarta);
 }
 .containerMain {
     grid-row: 2/3;
@@ -129,7 +129,7 @@
     padding-bottom: 100px;
 }
 .containerHerrajes {
-    background: linear-gradient(45deg, #C28948, #5C4122);
+    background: linear-gradient(45deg, map-get($colores, secundarioA), map-get($colores, secundarioB));
 }
 .containerItemsH {
     display: flex;
@@ -140,7 +140,7 @@
     justify-content: space-around;
 }
 .containerForm {
-    background: linear-gradient(45deg, #C28948, #5C4122);
+    background: linear-gradient(45deg, map-get($colores, secundarioA), map-get($colores, secundarioB));
 }
 .p {
     padding: 20px;
@@ -154,6 +154,5 @@
     transform: scale(1.1);
     box-shadow: 50px 0px 30px -15px rgba(0,0,0,0.5);
 }
-
 
 

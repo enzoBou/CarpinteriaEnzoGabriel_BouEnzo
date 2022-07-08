@@ -1,7 +1,17 @@
-$colorPrincipal: #9C6E3A;
-$colorSecundarioA: #C28948;
-$colorSecundarioB: #5C4122;
-$colorSecundarioC: #DB9B51;
+$colores: (
+    principal: #9C6E3A,
+    secundarioA: #C28948,
+    secundarioB: #5C4122,
+    secundarioC: #DB9B51,
+);
+
+$tamañoFuente: (
+    primera: 48px,
+    segunda: 36px,
+    tercera: 20px,
+    cuarta: 50px,
+    quinta: 18px
+);
 
 $mobile: 576px;
 $tablet: 768px;
@@ -11,10 +21,3 @@ $breakpointB: 600px;
 $breakpointC: 620px;
 $breakpointD: 1000px;
 
-$fuentePrimaria: 48px;
-$fuenteSecundaria: 36px;
-$tercerFuente: 20px;
-$cuartaFuente: 50px;
-$quintaFuente: 18px;
-$tipoDeFuentePrimaria: 'Times New Roman', Times, serif;
-$tipoDeFuenteSecundaria: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
