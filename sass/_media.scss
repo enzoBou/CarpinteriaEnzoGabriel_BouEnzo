@@ -49,8 +49,6 @@
             align-items: flex-end;
             justify-content: end;
             gap: 10px;
-            margin-right: 10px;
-            margin-bottom: 20px;
         }
     }
 
@@ -93,7 +91,7 @@
     .footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 100px;
+        grid-template-rows: 1fr 130px;
         .footer__uno {
             grid-column: 1/2;
             grid-row: 2/3;
