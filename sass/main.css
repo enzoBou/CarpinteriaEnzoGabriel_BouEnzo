@@ -279,7 +279,7 @@
 
 @-webkit-keyframes rebote {
   0% {
-    transform: translateY(-10%);
+    transform: translateY(-6%);
   }
   100% {
     transform: translateY(0);
@@ -288,7 +288,7 @@
 
 @keyframes rebote {
   0% {
-    transform: translateY(-10%);
+    transform: translateY(-6%);
   }
   100% {
     transform: translateY(0);
