@@ -41,7 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 250px;
+    padding-top: 100px;
     font-size: map-get($tamañoFuente, segunda);
 }
 .descripcion {
@@ -58,6 +58,32 @@
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
+    .patrocinadores {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    img {
+        border-radius: 50%;
+        animation: rebote 1s alternate infinite ease-in;
+    }
+    }
+    .marcasTitle {
+        display: flex;
+        justify-content: center;
+        font-size: map-get($tamañoFuente, sexta);
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@keyframes rebote{
+    0%{
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 .catalogo {
     display: flex;
